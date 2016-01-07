@@ -115,6 +115,8 @@ class SearchMoreInformation: UIViewController, UITableViewDataSource, UITableVie
         
         if (moviesAdded.contains(currentMovie["imdbID"]!) == false) {
             
+            moviesAdded.append(currentMovie["imdbID"]!)
+            
             //get the delegate and context from core data
             let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
             let context = delegate.managedObjectContext
