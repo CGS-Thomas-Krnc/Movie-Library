@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Automatic">
+    <entity name="SavedMovies" syncable="YES">
+        <attribute name="aActors" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aAwards" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aCountry" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aDirector" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aGenre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aimdbID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aimdbRaiting" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aLanguage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aMetaScore" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aPlot" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aPoster" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="aRated" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aReleased" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aRuntime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aWriter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aYear" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SavedMovies" positionX="-54" positionY="9" width="128" height="315"/>
+    </elements>
 </model>
